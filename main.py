@@ -112,12 +112,3 @@ df_demo = pd.DataFrame({
 st.dataframe(df_demo.head(10), width=700)
 st.bar_chart(df_demo["Support"].value_counts())
 
-# ─── Deployment Note ──────────────────────────────────────────────────────
-st.markdown("""
----
-**Deploy on Streamlit Cloud:**  
-1. Push this script + `requirements.txt` to GitHub.  
-2. Sign in at [streamlit.io/cloud] and link your repo.  
-3. Select your script, choose a subdomain, and Deploy!  
-4. Share your `*.streamlit.app` URL.
-""")
